@@ -1,8 +1,8 @@
 # 使用方法
-1（cnpm install gulp -g）首先全局安装gulp安装过请忽略
-2 (node app.js)  创建基本的 html less images js文件夹以及文件
-3 (cnpm install) 安装项目依赖
-4（gulp）启动项目
+1 (cnpm install gulp -g) 首先全局安装gulp,安装过请忽略
+2 (cnpm install) 安装项目依赖
+3 (gulp) 启动index.html 
+    (gulp --ues XXX) 启动 XXX.html 
 
 # 说明
 1 自动编译less 
@@ -10,3 +10,4 @@
 
 # 注意
   html 自己引入生成好的文件 懂gulpfile配置的可自己按需修改
+  也可自创 html less 以及 js （项目需要重启）
